@@ -74,3 +74,9 @@ SHORTNER_SITE =  environ.get('SHORTNER_SITE', '') #Put Only Shortner Site domain
 SHORTNER_API =  environ.get('SHORTNER_API', '')
 
 AUTO_DELETE =  environ.get('AUTO_DELETE', 'True')
+
+############################################
+IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'True')), True)
+HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', "https://t.me/How_to_Downloanload")
+VERIFY2_URL = environ.get('VERIFY2_URL', "urlshortx.com")
+VERIFY2_API = environ.get('VERIFY2_API', "286845832765b956cc4faccbd712adc3d99bc2ec")
