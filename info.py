@@ -76,7 +76,7 @@ SHORTNER_API =  environ.get('SHORTNER_API', '')
 AUTO_DELETE =  environ.get('AUTO_DELETE', 'True')
 
 ############################################
-IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'True')), True)
-HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', "https://t.me/How_to_Downloanload")
-VERIFY2_URL = environ.get('VERIFY2_URL', "urlshortx.com")
-VERIFY2_API = environ.get('VERIFY2_API', "286845832765b956cc4faccbd712adc3d99bc2ec")
+ TECH_VJ = bool(environ.get('TECH_VJ', True)) # Set False If you want shortlink off else True
+    TECH_VJ_URL = environ.get('TECH_VJ_URL', 'moneykamalo.com') # your shortlink url domain or url without https://
+    TECH_VJ_API = environ.get('TECH_VJ_API', '0eefb93e1e3ce9470a7033115ceb1bad13a9d674') # your url shortner api
+    TECH_VJ_TUTORIAL = os.environ.get("TECH_VJ_TUTORIAL", "https://t.me/How_To_Open_Linkl")
